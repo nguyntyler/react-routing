@@ -1,0 +1,23 @@
+div {
+	.description {
+		border-bottom: 1px black solid;
+		width: 50vw;
+		margin: auto;
+		padding-top: 10px;
+
+		span {
+			color: goldenrod;
+		}
+	}
+
+	section {
+		p {
+			font-size: large;
+		}
+	}
+
+	img {
+		background-color: rgba(240, 128, 128, 0.452);
+		border-radius: 50%;
+	}
+}
