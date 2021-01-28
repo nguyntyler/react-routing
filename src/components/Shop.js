@@ -62,7 +62,7 @@ function Shop() {
           <div 
             id="autocomplete-list">
             {dropDownItems.map(i => 
-              <div id="each-item"><Link to={`/shop/${i.id}`}>{i.name}</Link></div>
+              <Link to={`/shop/${i.id}`} id="each-item"><div>{i.name}</div></Link>
               )
             }
           </div>
